@@ -1,0 +1,9 @@
+
+<div class="row">
+<!--    Itera sobre todos los canales-->
+{% for canal in canales %}
+    <div class="col-3 mt-5">
+    {% include "consumir_api/snippets/canales.html" %}
+    </div>
+{% endfor %}
+</div>
